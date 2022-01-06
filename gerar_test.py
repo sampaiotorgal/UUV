@@ -1,6 +1,4 @@
 import os
-
-# o que o codigo abaixo faz: adiciona o nome e caminho de todos as fotos (.jpg) em um txt
 imagens = []
 os.chdir(os.path.join("data", "valid"))
 for filename in os.listdir(os.getcwd()):
